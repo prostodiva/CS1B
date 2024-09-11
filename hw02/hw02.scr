@@ -1,0 +1,50 @@
+Script started on Tue Sep 10 17:46:55 2024
+Restored session: Tue Sep 10 17:46:16 PDT 2024
+[1m[7m%[27m[1m[0m                                                                        ]7;file://ritas-mbp.saddleback.edu/Users/evolvers/desktop/college/fall24/fall24/1b/hw/hw02[0m[27m[24m[Jevolvers@ritas-mbp hw02 % [K[?2004hddate[?2004l
+Tue Sep 10 17:46:58 PDT 2024
+[1m[7m%[27m[1m[0m                                                                        ]7;file://ritas-mbp.saddleback.edu/Users/evolvers/desktop/college/fall24/fall24/1b/hw/hw02[0m[27m[24m[Jevolvers@ritas-mbp hw02 % [K[?2004hlls -l[?2004l
+total 80
+-rw-r--r--  1 evolvers  staff   648 Sep  8 20:19 Makefile
+-rw-r--r--@ 1 evolvers  staff   428 Sep 10 17:31 hw02.cpp
+-rw-r--r--@ 1 evolvers  staff   680 Sep 10 17:31 hw02.hpp
+-rw-r--r--  1 evolvers  staff    43 Sep 10 17:46 hw02.scr
+-rw-r--r--@ 1 evolvers  staff   398 Sep 10 17:32 hw02data.cpp
+-rw-r--r--@ 1 evolvers  staff   420 Sep  9 14:54 hw02menu.cpp
+-rw-r--r--@ 1 evolvers  staff  1227 Sep 10 17:36 hw02saleprod.cpp
+-rw-r--r--@ 1 evolvers  staff   103 Sep 10 17:11 hw02showamt.cpp
+-rw-r--r--@ 1 evolvers  staff   193 Sep  9 20:21 hw02showcount.cpp
+-rw-r--r--@ 1 evolvers  staff   117 Sep 10 17:14 hw02showsale.cpp
+[1m[7m%[27m[1m[0m                                                                        ]7;file://ritas-mbp.saddleback.edu/Users/evolvers/desktop/college/fall24/fall24/1b/hw/hw02[0m[27m[24m[Jevolvers@ritas-mbp hw02 % [K[?2004hmmake all[?2004l
+g++ -c hw02data.cpp -o hw02data.o
+c++    -c -o hw02menu.o hw02menu.cpp
+g++ -c hw02saleprod.cpp -o hw02saleprod.o
+g++ -c hw02showamt.cpp -o hw02showamt.o
+g++ -c hw02showcount.cpp -o hw02showcount.o
+g++ -c hw02showsale.cpp -o hw02showsale.o
+g++ hw02.cpp -o hw02  hw02data.o hw02menu.o hw02saleprod.o hw02showamt.o hw02showcount.o hw02showsale.o
+[1m[7m%[27m[1m[0m                                                                        ]7;file://ritas-mbp.saddleback.edu/Users/evolvers/desktop/college/fall24/fall24/1b/hw/hw02[0m[27m[24m[Jevolvers@ritas-mbp hw02 % [K[?2004hlls -l[?2004l
+total 336
+-rw-r--r--  1 evolvers  staff    648 Sep  8 20:19 Makefile
+-rwxr-xr-x  1 evolvers  staff  41752 Sep 10 17:47 hw02
+-rw-r--r--@ 1 evolvers  staff    428 Sep 10 17:31 hw02.cpp
+-rw-r--r--@ 1 evolvers  staff    680 Sep 10 17:31 hw02.hpp
+-rw-r--r--  1 evolvers  staff     43 Sep 10 17:46 hw02.scr
+-rw-r--r--@ 1 evolvers  staff    398 Sep 10 17:32 hw02data.cpp
+-rw-r--r--  1 evolvers  staff  12784 Sep 10 17:47 hw02data.o
+-rw-r--r--@ 1 evolvers  staff    420 Sep  9 14:54 hw02menu.cpp
+-rw-r--r--  1 evolvers  staff  12472 Sep 10 17:47 hw02menu.o
+-rw-r--r--@ 1 evolvers  staff   1227 Sep 10 17:36 hw02saleprod.cpp
+-rw-r--r--  1 evolvers  staff  13840 Sep 10 17:47 hw02saleprod.o
+-rw-r--r--@ 1 evolvers  staff    103 Sep 10 17:11 hw02showamt.cpp
+-rw-r--r--  1 evolvers  staff  11944 Sep 10 17:47 hw02showamt.o
+-rw-r--r--@ 1 evolvers  staff    193 Sep  9 20:21 hw02showcount.cpp
+-rw-r--r--  1 evolvers  staff  12288 Sep 10 17:47 hw02showcount.o
+-rw-r--r--@ 1 evolvers  staff    117 Sep 10 17:14 hw02showsale.cpp
+-rw-r--r--  1 evolvers  staff  12024 Sep 10 17:47 hw02showsale.o
+[1m[7m%[27m[1m[0m                                                                        ]7;file://ritas-mbp.saddleback.edu/Users/evolvers/desktop/college/fall24/fall24/1b/hw/hw02[0m[27m[24m[Jevolvers@ritas-mbp hw02 % [K[?2004heexit[?2004l
+
+Saving session...
+...saving history...truncating history files...
+...completed.
+
+Script done on Tue Sep 10 17:47:17 2024

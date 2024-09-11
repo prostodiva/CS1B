@@ -1,0 +1,27 @@
+Script started on Fri Aug 30 11:02:13 2024
+[1m[7m%[27m[1m[0m                                                                                                                                        ]7;file://ritas-mbp.saddleback.edu/Users/evolvers/desktop/college/Fall24/fall24/1B/hw[0m[27m[24m[Jevolvers@ritas-mbp hw % [K[?2004hlls -l[?2004l
+total 24
+-rw-r--r--  1 evolvers  staff  500 Aug 30 10:59 hw01.cpp
+-rw-r--r--  1 evolvers  staff  172 Aug 30 10:48 hw01.hpp
+-rw-r--r--  1 evolvers  staff   43 Aug 30 11:02 hw01.scr
+[1m[7m%[27m[1m[0m                                                                                                                                        ]7;file://ritas-mbp.saddleback.edu/Users/evolvers/desktop/college/Fall24/fall24/1B/hw[0m[27m[24m[Jevolvers@ritas-mbp hw % [K[?2004hgg++ hw01.cpp -o hw01[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                        ]7;file://ritas-mbp.saddleback.edu/Users/evolvers/desktop/college/Fall24/fall24/1B/hw[0m[27m[24m[Jevolvers@ritas-mbp hw % [K[?2004hlls -l[?2004l
+total 104
+-rwxr-xr-x  1 evolvers  staff  40673 Aug 30 11:04 hw01
+-rw-r--r--  1 evolvers  staff    500 Aug 30 10:59 hw01.cpp
+-rw-r--r--  1 evolvers  staff    172 Aug 30 10:48 hw01.hpp
+-rw-r--r--  1 evolvers  staff    851 Aug 30 11:03 hw01.scr
+[1m[7m%[27m[1m[0m                                                                                                                                        ]7;file://ritas-mbp.saddleback.edu/Users/evolvers/desktop/college/Fall24/fall24/1B/hw[0m[27m[24m[Jevolvers@ritas-mbp hw % [K[?2004h../hw01[?2004l
+Enter a capacity: 
+120
+Enter a rating: 
+60
+The number of milesthe automobile can be driven without recharging: 7200
+[1m[7m%[27m[1m[0m                                                                                                                                        ]7;file://ritas-mbp.saddleback.edu/Users/evolvers/desktop/college/Fall24/fall24/1B/hw[0m[27m[24m[Jevolvers@ritas-mbp hw % [K[?2004heexit[?2004l
+
+Saving session...
+...saving history...truncating history files...
+...completed.
+Deleting expired sessions...none found.
+
+Script done on Fri Aug 30 11:04:37 2024
