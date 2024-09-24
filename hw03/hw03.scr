@@ -1,0 +1,114 @@
+Script started on Mon Sep 23 18:25:32 2024
+[1m[7m%[27m[1m[0m                                                                                                                       ]7;file://Ritas-MacBook-Pro.local/Users/evolvers/desktop/college/fall24/fall24/1b/hw/cs1b/hw03[0m[27m[24m[Jevolvers@Ritas-MacBook-Pro hw03 % [K[?2004hddate[?2004l
+Mon Sep 23 18:25:37 PDT 2024
+[1m[7m%[27m[1m[0m                                                                                                                       ]7;file://Ritas-MacBook-Pro.local/Users/evolvers/desktop/college/fall24/fall24/1b/hw/cs1b/hw03[0m[27m[24m[Jevolvers@Ritas-MacBook-Pro hw03 % [K[?2004hlls -l[?2004l
+total 48
+-rw-r--r--@ 1 evolvers  staff   157 Sep 23 18:23 Makefile
+-rw-r--r--  1 evolvers  staff    43 Sep 23 18:25 hw03.scr
+-rw-r--r--@ 1 evolvers  staff  2297 Sep 23 18:05 inctax.cpp
+-rw-r--r--@ 1 evolvers  staff   540 Sep 23 18:07 inctax.h
+-rw-r--r--@ 1 evolvers  staff  1767 Sep 23 18:10 main.cpp
+drwxr-xr-x  3 evolvers  staff    96 Sep 23 17:40 main.dSYM
+-rw-r--r--  1 evolvers  staff   228 Sep 22 22:07 myHeader.h
+[1m[7m%[27m[1m[0m                                                                                                                       ]7;file://Ritas-MacBook-Pro.local/Users/evolvers/desktop/college/fall24/fall24/1b/hw/cs1b/hw03[0m[27m[24m[Jevolvers@Ritas-MacBook-Pro hw03 % [K[?2004hmmake all[?2004l
+g++ -c inctax.cpp -o inctax.o
+c++    -c -o main.o main.cpp
+g++ main.cpp -o main inctax.o 
+[1m[7m%[27m[1m[0m                                                                                                                       ]7;file://Ritas-MacBook-Pro.local/Users/evolvers/desktop/college/fall24/fall24/1b/hw/cs1b/hw03[0m[27m[24m[Jevolvers@Ritas-MacBook-Pro hw03 % [K[?2004h../main[?2004l
+This is a simple tax calculator.
+Enter tax payer name: 
+Rita
+Enter tax year: 
+2022
+You have entered: Rita, 2022
+Enter the number of income sources(max 10): 
+5
+Enter the description of the source of income: 
+business
+Enter the amount for income item: 
+20000
+Enter the description of the source of income: 
+job
+Enter the amount for income item: 
+20  30000
+Enter the description of the source of income: 
+inv vestments
+Enter the amount for income item: 
+2000
+Enter the description of the source of income: 
+dividents
+Enter the amount for income item: 
+1000
+Enter the description of the source of income: 
+child     Reits
+Enter the amount for income item: 
+500
+
+Income items: business $ 20000
+
+Income items: job $ 30000
+
+Income items: investments $ 2000
+
+Income items: dividents $ 1000
+
+Income items: Reits $ 500
+Enter the number of expensies: (max 10)
+6
+Enter expense item description: 
+food
+Enter amount: 
+1000
+Enter expense item description: 
+gas
+Enter amount: 
+2000
+Enter expense item description: 
+rent
+Enter amount: 
+2000
+Enter expense item description: 
+unpredictable
+Enter amount: 
+300
+Enter expense item description: 
+cloths
+Enter amount: 
+500
+Enter expense item description: 
+other
+Enter amount: 
+200
+
+Expencies: food $ 1000
+
+Expencies: gas $ 2000
+
+Expencies: rent $ 2000
+
+Expencies: unpredictable $ 300
+
+Expencies: cloths $ 500
+
+Expencies: other $ 200
+Enter number of dependence: 
+1
+Name: 
+Alex
+Relationship: 
+spouse
+
+Name: Alex
+Relationship: spouse
+
+Tax owed: $ 8550
+Income total: $ 53500
+Expencies total: $ 6000
+[1m[7m%[27m[1m[0m                                                                                                                       ]7;file://Ritas-MacBook-Pro.local/Users/evolvers/desktop/college/fall24/fall24/1b/hw/cs1b/hw03[0m[27m[24m[Jevolvers@Ritas-MacBook-Pro hw03 % [K[?2004heexit[?2004l
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+Script done on Mon Sep 23 18:28:29 2024
