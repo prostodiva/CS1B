@@ -73,10 +73,7 @@ void prDep(char depName[10][40], char depRelation[10][40], int depNum) {
 }
 
 void prSumm(double incTotal, double expTotal, double depTotal) {
-	const double DEDUCTION = 3000.00;
-	const double TAX_RATE = 0.18;
 	double tax = 0;
-
 	tax = (((incTotal - expTotal) - (depTotal * DEDUCTION)) * TAX_RATE);	//	tax = {[incT ot - expT ot - (depT ot * 3000.00)] * 0.18}
 	cout <<"\nTax owed: $ "<<tax<<endl;
 }

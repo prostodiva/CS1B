@@ -26,7 +26,8 @@ const int SMALL_OZ = 9;
 const int MEDIUM_OZ = 12;
 const int LARGE_OZ = 15;
 
-// declaring global variables
+// declaring global variables 
+//I HAVE TO DETETE EXTERN AND PASS TO THE FUNCTIONS BY REFERENCE
 extern int smallCups;
 extern int mediumCups;
 extern int largeCups;

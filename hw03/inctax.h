@@ -13,6 +13,9 @@ void prDep(char depNum[10][40], char depRel[10][40], int dsiz);
 void prSumm(double incTot, double expTot, double depTot);
 
 
+const double DEDUCTION = 3000.00;
+const double TAX_RATE = 0.18;
+
 #endif
 
 

@@ -1,5 +1,5 @@
-//Margrarita Kattsyna
-//CS1b
+//Margarita Kattsyna
+//CS1b - HW03
 //09/22/24
 //
 //a program that performs a simple income tax calculation. 
