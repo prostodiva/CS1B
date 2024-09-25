@@ -1,6 +1,6 @@
 #include "hw02.hpp"
 
-void showCoffeeSold() {
+void showCoffeeSold(int coffeeS) {
 	
-	cout << "Total amount of coffee sold: " <<coffeeSold<<" OZ"<<endl;
+	cout << "Total amount of coffee sold: " <<coffeeS<<" OZ"<<endl;
 }

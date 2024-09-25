@@ -1,7 +1,7 @@
 #include "hw02.hpp"
 
-void showMoneyMade() {
+void showMoneyMade(double totalAm) {
 
-    cout << "\nTotal money made: "<<totalAmount<<endl;
+    cout << "\nTotal money made: "<<totalAm<<endl;
 
 }

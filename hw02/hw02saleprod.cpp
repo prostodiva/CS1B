@@ -1,6 +1,6 @@
 #include "hw02.hpp"
 
-void sellCoffee() {
+void sellCoffee(int smallC, int mediumC, int largeC, double totalAm, int coffeeS) {
 	
 	int choice = 0;
 	int cupsQuantity = 0;
@@ -10,7 +10,7 @@ void sellCoffee() {
 	cout << "Enter 2 to buy coffee in a medium cup size (12 oz)" <<endl;
 	cout << "Enter 3 to buy coffee in a large cup size (15 oz)" <<endl;
 	cout << "Enter 4 to exit." << endl;
-	cin >> choice;											//input
+	cin >> choice;
 	cout <<"The choice was "<<choice<<endl;
 	cout << "Enter the number of cups: "<<endl;
 	cin >> cupsQuantity;
@@ -18,15 +18,15 @@ void sellCoffee() {
 
 	switch (choice) {
 		case 1: price = SMALL;
-				smallCups += cupsQuantity;					//counts the amount of smallCups
+				smallC += cupsQuantity;					//counts the amount of smallCups
 				result = price * cupsQuantity;				//how much the customer has to pay
 					break;
 		case 2: price = MEDIUM; 
-				mediumCups += cupsQuantity;
+				mediumC += cupsQuantity;
 				result = price * cupsQuantity;
 					break;
 		case 3: price = LARGE; 
-				largeCups += cupsQuantity;
+				largeC += cupsQuantity;
 				result = price * cupsQuantity;
 					break;
 		case 4: return;
@@ -34,8 +34,8 @@ void sellCoffee() {
 
 	cout <<"Please pay: $ "<< result<<endl;
 
-	totalAmount += price * cupsQuantity;					// the total amount was made
-	coffeeSold += SMALL_OZ * smallCups + MEDIUM_OZ * mediumCups + LARGE_OZ * largeCups;	//the total amount of coffee was made
+	totalAm += price * cupsQuantity;					// the total amount was made
+	coffeeS += SMALL_OZ * smallC + MEDIUM_OZ * mediumC + LARGE_OZ * largeC;	//the total amount of coffee was made
 
 	}
 

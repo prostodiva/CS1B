@@ -10,11 +10,11 @@
 using namespace std;
 // declaring the functions
 void userMenu();
-void showCupCount();
-void showMoneyMade();
-void showCoffeeSold();
-void sellCoffee();
-void printTheData();
+void showCupCount(int smallCups, int mediumCups, int largeCups);
+void showMoneyMade(double totalAmount);
+void showCoffeeSold(int coffeeSold);
+void sellCoffee(int smallCups, int mediumCups, int largeCups, double totalAmount, int coffeeSold);
+void printTheData(int smallCups, int mediumCups, int largeCups, double totalAmount, int coffeeSold);
 
 // the price
 const double SMALL = 1.75;
@@ -26,10 +26,3 @@ const int SMALL_OZ = 9;
 const int MEDIUM_OZ = 12;
 const int LARGE_OZ = 15;
 
-// declaring global variables 
-//I HAVE TO DETETE EXTERN AND PASS TO THE FUNCTIONS BY REFERENCE
-extern int smallCups;
-extern int mediumCups;
-extern int largeCups;
-extern double totalAmount;
-extern int coffeeSold;

@@ -1,9 +1,14 @@
 #include "hw02.hpp"
 
-int main()					
+int main()
 {
 
 	int choice = 0;
+	int smallCups;
+	int mediumCups;
+	int largeCups;
+	double totalAmount;
+	int coffeeSold;
 
 	do
 	{
@@ -14,19 +19,19 @@ int main()
 		switch (choice)
 		{
 		case 1:
-			sellCoffee();
+			sellCoffee(smallCups, mediumCups, largeCups, totalAmount, coffeeSold);
 			break;
 		case 2:
-			showMoneyMade();
+			showMoneyMade(totalAmount);
 			break;
 		case 3:
-			showCoffeeSold();
+			showCoffeeSold(coffeeSold);
 			break;
 		case 4:
-			showCupCount();
+			showCupCount(smallCups, mediumCups, largeCups);
 			break;
 		case 5:
-			printTheData();
+			printTheData(smallCups, mediumCups, largeCups, totalAmount, coffeeSold);
 			break;
 		case 6:
 			return 0;

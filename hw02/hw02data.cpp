@@ -1,17 +1,17 @@
 #include "hw02.hpp"
 
-int smallCups = 0;
-int mediumCups = 0;
-int largeCups = 0;
-double totalAmount = 0;
-int coffeeSold = 0;
+int smallC = 0;
+int mediumC = 0;
+int largeC = 0;
+double totalAm = 0;
+int coffeeS = 0;
 
-void printTheData() {
+void printTheData(int smallC, int mediumC, int largeC, double totalAm, int coffeeS) {
 
-	cout <<"Small cup count: "<<smallCups<<endl;
-	cout <<"Medium cup count: "<<mediumCups<<endl;
-	cout <<"Large cup count: "<<largeCups<<endl;
-	cout <<"Total amount of coffee sold: "<<coffeeSold<<endl;
-	cout <<"Total money made: "<<totalAmount<<endl;
+	cout <<"Small cup count: "<<smallC<<endl;
+	cout <<"Medium cup count: "<<mediumC<<endl;
+	cout <<"Large cup count: "<<largeC<<endl;
+	cout <<"Total amount of coffee sold: "<<coffeeS<<endl;
+	cout <<"Total money made: "<<totalAm<<endl;
 
 }
