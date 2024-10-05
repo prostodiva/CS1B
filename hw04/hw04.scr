@@ -1,0 +1,66 @@
+Script started on Sat Oct  5 11:28:36 2024
+[1m[7m%[27m[1m[0m                                                                                    [0m[27m[24m[Jevolvers@Ritas-MacBook-Pro hw04 % [K[?2004hddate[?2004l
+Sat Oct  5 11:28:39 PDT 2024
+[1m[7m%[27m[1m[0m                                                                                    [0m[27m[24m[Jevolvers@Ritas-MacBook-Pro hw04 % [K[?2004hlls -l[?2004l
+total 312
+-rw-r--r--@ 1 evolvers  staff     251 Oct  4 11:28 Makefile
+-rw-r--r--@ 1 evolvers  staff     472 Oct  5 10:50 add.cpp
+-rw-r--r--@ 1 evolvers  staff    1171 Oct  5 11:28 hw04.cpp
+-rw-r--r--@ 1 evolvers  staff     421 Oct  4 11:32 hw04.hpp
+-rw-r--r--@ 1 evolvers  staff  130545 Oct  1 19:29 hw04.pdf
+-rw-r--r--@ 1 evolvers  staff      43 Oct  5 11:28 hw04.scr
+-rw-r--r--@ 1 evolvers  staff     512 Oct  5 11:16 mul.cpp
+-rw-r--r--@ 1 evolvers  staff     469 Oct  5 10:44 sub.cpp
+[1m[7m%[27m[1m[0m                                                                                    [0m[27m[24m[Jevolvers@Ritas-MacBook-Pro hw04 % [K[?2004hmmake all[?2004l
+g++ -c add.cpp -o add.o
+g++ -c mul.cpp -o mul.o
+g++ -c sub.cpp -o sub.o
+g++ hw04.cpp -o hw04 add.o mul.o sub.o
+[1m[7m%[27m[1m[0m                                                                                    [0m[27m[24m[Jevolvers@Ritas-MacBook-Pro hw04 % [K[?2004hlls -l[?2004l
+total 464
+-rw-r--r--@ 1 evolvers  staff     251 Oct  4 11:28 Makefile
+-rw-r--r--@ 1 evolvers  staff     472 Oct  5 10:50 add.cpp
+-rw-r--r--@ 1 evolvers  staff   12264 Oct  5 11:28 add.o
+-rwxr-xr-x@ 1 evolvers  staff   40936 Oct  5 11:28 hw04
+-rw-r--r--@ 1 evolvers  staff    1171 Oct  5 11:28 hw04.cpp
+-rw-r--r--@ 1 evolvers  staff     421 Oct  4 11:32 hw04.hpp
+-rw-r--r--@ 1 evolvers  staff  130545 Oct  1 19:29 hw04.pdf
+-rw-r--r--@ 1 evolvers  staff      43 Oct  5 11:28 hw04.scr
+-rw-r--r--@ 1 evolvers  staff     512 Oct  5 11:16 mul.cpp
+-rw-r--r--@ 1 evolvers  staff   11728 Oct  5 11:28 mul.o
+-rw-r--r--@ 1 evolvers  staff     469 Oct  5 10:44 sub.cpp
+-rw-r--r--@ 1 evolvers  staff   12264 Oct  5 11:28 sub.o
+[1m[7m%[27m[1m[0m                                                                                    [0m[27m[24m[Jevolvers@Ritas-MacBook-Pro hw04 % [K[?2004h../hw04[?2004l
+Enter integers to fill out the first matrix: 
+6
+8
+4
+6
+Enter integers to fill out the second matrix: 
+4
+6
+2
+4
+Operations to perform: 
+Choose  1 - addition, 2 - subtraction, 3 - multiplication, 4 - exit
+1
+10 14 
+6 10 
+
+Operations to perform: 
+Choose  1 - addition, 2 - subtraction, 3 - multiplication, 4 - exit
+2
+2 2 
+2 2 
+
+Operations to perform: 
+Choose  1 - addition, 2 - subtraction, 3 - multiplication, 4 - exit
+3
+42 70 
+30 50 
+Operations to perform: 
+Choose  1 - addition, 2 - subtraction, 3 - multiplication, 4 - exit
+4
+[1m[7m%[27m[1m[0m                                                                                    [0m[27m[24m[Jevolvers@Ritas-MacBook-Pro hw04 % [K[?2004heexit[?2004l
+
+Script done on Sat Oct  5 11:29:28 2024

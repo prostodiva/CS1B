@@ -1,6 +1,6 @@
 #include "inctax.h"
 
-double getInc(double incomeAmount[10], char incomeDescr[10][40], int &itemsNum) {
+double getInc(double incomeAmount[10], char incomeDescr[10][40], int& itemsNum) {
 	double total = 0;
 	cout <<"Enter the number of income sources(max 10): "<<endl;
 	cin >>itemsNum;
@@ -19,7 +19,7 @@ double getInc(double incomeAmount[10], char incomeDescr[10][40], int &itemsNum) 
 }
 
 
-double getExp(double expenseAmount[10], char expItemsDesc[10][40], int &itemsNum) {
+double getExp(double expenseAmount[10], char expItemsDesc[10][40], int& itemsNum) {
 	double total = 0;
 	cout<< "Enter the number of expensies: (max 10)"<<endl;
 	cin >>itemsNum;
@@ -38,7 +38,7 @@ double getExp(double expenseAmount[10], char expItemsDesc[10][40], int &itemsNum
 
 }
 
-void getDep(char depName[10][40], char depRelation[10][40], int &depNum) {
+void getDep(char depName[10][40], char depRelation[10][40], int& depNum) {
 	cout <<"Enter number of dependence: "<<endl;
 	cin >>depNum;
 	if (depNum > 10) {
